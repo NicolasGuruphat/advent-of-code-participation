@@ -7,4 +7,5 @@ Here is my participation to the [Advent Of Code](https://adventofcode.com) event
 ### Year 2022
 
 * ✔️ Day 3
-
+  * ✔️ Part 1
+  * ✔️ Part 2
