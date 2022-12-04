@@ -9,6 +9,7 @@ def findPriority(element):
 with open("input.txt", "r") as txt_file:
         input = txt_file.readlines()
 def findValue(input):
+    # Part 1
     priority=0
     for line in input:
         half = (len(line))//2
@@ -19,7 +20,9 @@ def findValue(input):
                 priority += findPriority(element)
                 break
     return priority
+
 def findBadge(input):
+    # Part 2
     i = 0
     priority = 0
     while i < len(input):
